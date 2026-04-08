@@ -4,12 +4,12 @@ on: push
 
 jobs:
     build:
-        runs-on: ubuntu-latest
-        steps:
-            - name: uptime
-             run: uptime
-            - name: number of processor
-              run: nproc
+     runs-on: ubuntu-latest
+     steps:
+       - name: uptime
+         run: uptime
+       - name: number of processor
+         run: nproc
 
     test:
       runs-on: ubuntu-latest         
