@@ -17,4 +17,4 @@ jobs:
             password: ${{ secrets.DOCKER_password }}
           
         - name: push image to registry
-          run: docker push ${{ secrets.DOCKER_USERNAME }}/ciportofolio .
+          run: docker push ${{secrets.DOCKER_USERNAME}}/ciportofolio .
